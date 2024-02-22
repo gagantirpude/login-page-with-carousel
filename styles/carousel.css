@@ -1,0 +1,58 @@
+/* //* Carousel */
+.carousel-container {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  /* background-image: url(https://happy-visitor.com/wp-content/uploads/2019/08/header_image.png); */
+  background-color: white;
+}
+
+.carousel {
+  display: flex;
+  width: 100%;
+  float: right;
+  transition: transform 1s ease-out;
+  /* background-color: violet; */
+}
+
+.slide1 {
+  width: 550px;
+  /* width: 40%; */
+  /* flex: 0 0 100%; */
+  height: 100vh;
+  /* background-size: cover; */
+  /* background-color: blueviolet; */
+}
+
+.slide2 {
+  width: 1400px;
+  /* width: 60%; */
+  /* flex: 0 0 100%; */
+  height: 100vh;
+  background-size: cover;
+  /* background-color: pink; */
+  background-repeat: no-repeat;
+}
+.slide2 img {
+  /* width: 100%; */
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Basic Image Style */
+.basic-image {
+  width: 1200px;
+  /* width: 300%; */
+  height: auto;
+  display: block;
+  margin-left: auto;
+}
+
+.carousel-con {
+  display: flex;
+  width: 100%;
+}
