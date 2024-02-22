@@ -89,7 +89,7 @@ label {
 
 .registration-link:hover,
 .track-request-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* styles.css */
